@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fenix&display=swap");
+
+:root {
+  --main-color: black;
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  padding: 13px 50px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+header .logo a {
+  font-size: 32px;
+  font-family: "Fenix", serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+
+header ul {
+  display: flex;
+  margin: 0;
+}
+
+header ul li {
+  margin: 0px 15px;
+}
+
+header ul li a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-transform: uppercase;
+  transform: 0.4s;
+  font-size: 18px;
+}
+
+.navigation a {
+  color: black;
+}
