@@ -14,7 +14,7 @@
 
 header {
   width: 100%;
-  background-color: white;
+  background-color: black;
   padding: 13px 50px;
   position: fixed;
   top: 0px;
@@ -30,7 +30,7 @@ header .logo a {
   font-family: "Fenix", serif;
   text-decoration: none;
   text-transform: capitalize;
-  color: black;
+  color: white;
 }
 
 header ul {
@@ -52,5 +52,5 @@ header ul li a {
 }
 
 .navigation a {
-  color: black;
+  color: white;
 }

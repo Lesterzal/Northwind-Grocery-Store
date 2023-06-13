@@ -1,3 +1,90 @@
-body {
-    background-color: lightblue;
-}
+/* Home */
+
+html {
+    box-sizing: border-box;
+    font-size: 70%;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: black;
+    background-color: whitesmoke;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .box {
+    max-width: 1824px;
+    margin: 0 auto;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .box {
+      padding: 0 48px;
+    }
+  }
+  
+  .img {
+    background: url("/images/pexels-аlex-ugolkov-8867645.jpg") no-repeat;
+    height: calc(100vh - 74px);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 74px;
+  }
+  
+  .img::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .center .title {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+  }
+  
+  .center .btns {
+    margin-top: 20px;
+  }
+  
+  .center .btns button {
+    height: 50px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .center .btns button:first-child {
+    color: #fff;
+    background: none;
+  }
+  
+  .btns button:first-child:hover {
+    background: white;
+    color: black;
+  }
